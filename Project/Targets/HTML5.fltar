@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="MadCap HTML5 Target"
   Type="WebHelp2"
   Destinations=""
-  GlossaryTermConversion="marked"
+  GlossaryTermConversion="first"
   MasterPage="/Content/Resources/TemplatePages/Other-Topics.flmsp"
   DefaultUrl="/Content/Home.htm"
   ShowMadCapBacklink="true"
   MasterToc="/Project/TOCs/TOC.fltoc"
-  ResolveCssVariables="true">
+  ResolveCssVariables="true"
+  SearchEngine="MadCapSearch"
+  AbstractLength="303">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -19,4 +21,18 @@
     <Destination
       Publish="true" />
   </Destinations>
+  <Elasticsearch
+    Guid="99e13867-d6fb-4567-a2ec-098b390b7d07" />
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="AllFiles"
+      numberOfResults="1">
+      <microContentSubset />
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset />
+    </KnowledgePanel>
+  </MicroContentSearch>
 </CatapultTarget>
